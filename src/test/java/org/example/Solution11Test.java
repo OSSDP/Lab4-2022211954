@@ -14,7 +14,7 @@ public class Solution11Test {
     public void test1() {
         int[] nums = {1,2};
         Solution11 a = new Solution11();
-        Assert.assertEquals(1,a.threeSum(nums).size());
+        Assert.assertEquals(0,a.threeSum(nums).size());
     }
 
     @Test
@@ -34,7 +34,7 @@ public class Solution11Test {
     public void test3(){
         int[] nums = {-1,-2,-3};
         Solution11 a = new Solution11();
-        Assert.assertEquals(1,a.threeSum(nums).size());
+        Assert.assertEquals(0,a.threeSum(nums).size());
     }
 
     @Test
