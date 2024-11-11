@@ -47,7 +47,14 @@ public class Solution11Test {
         Assert.assertEquals(1,a.threeSum(nums).size());
     }
 
-
-    
+    @Test
+        /*
+         * 测试传入的整数数组元素有正有负的情况
+         * 测试用例：{1，-1，0，2，-1}*/
+    public void test5(){
+        int[] nums = {1,-1,0,};
+        Solution11 a = new Solution11();
+        Assert.assertEquals(1,a.threeSum(nums).size());
+    }
 
 }
